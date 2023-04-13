@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    padding-top: 5px;
+    margin: 0;
+    justify-content: space-evenly;
+    }
+
+.search {
+    height: 40px;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: #E84B3B;
+    background-size: cover;
+    justify-content: space-evenly;
+    padding: 40px 8% 40px 8%;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 40px;
+
+}
+
+.navBar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navBar ul li a:hover {
+    color:rgb(0, 0, 0);
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 245);
+    padding: 100px 25px 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.jumbotron2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 245);
+    padding: 100px 25px 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.text {
+    justify-content: center;
+    width: 30%;
+    line-height: 36px;
+}
+
+.heroImg {
+   height: 400px;
+   float:right;
+   border-radius: 15px;
+}
+
+.tutorialVideo {
+    height: 400px;
+    float:right;
+    border-radius: 15px;
+ }
+
+ .tutorialVideo:hover {
+    box-shadow: 4px 4px 5px rgba(33,33,33,.5);
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+.logoH {
+    height: 150px;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px;
+    
+}
+
+.card {
+    background-color: rgb(245, 245, 245);
+    width: 325px;
+    height: 400px;
+    margin: 50px 40px 50px;
+    border-radius: 15px;
+    outline: #E84B3B solid 3px;
+}
+
+.card:hover {
+    /* background: #E84B3B; */
+    box-shadow: 4px 4px 5px rgba(33,33,33,.5);
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+.card h2 {
+    color: #E84B3B;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.card p {
+    color: #E84B3B;
+    text-align: center;
+    padding:0 30px 0;
+}
+
+.cardImage {
+    padding-top: 15px;
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 15px;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+.footer {
+    color: #ffffff;
+    padding: 25px;
+    background-color: #E84B3B;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 25px;
+    font-weight: bolder;
+}
