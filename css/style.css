@@ -10,7 +10,6 @@ body {
 }
 
 .hero {
-    padding-top: 5px;
     margin: 0;
     justify-content: space-evenly;
     }
@@ -56,7 +55,7 @@ body {
 .jumbotron {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(200, 200, 200);
     padding: 100px 25px 100px;
     width: 100%;
     align-items: center;
@@ -65,7 +64,7 @@ body {
 .jumbotron2 {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(200, 200, 200);
     padding: 100px 25px 100px;
     width: 100%;
     align-items: center;
@@ -81,12 +80,14 @@ body {
    height: 400px;
    float:right;
    border-radius: 15px;
+   box-shadow: 8px 8px 5px rgba(33,33,33,.15);
 }
 
 .tutorialVideo {
     height: 400px;
     float:right;
     border-radius: 15px;
+    box-shadow: 8px 8px 5px rgba(33,33,33,.15);
  }
 
  .tutorialVideo:hover {
@@ -126,12 +127,12 @@ h1 {
     margin: 50px 40px 50px;
     border-radius: 15px;
     outline: #E84B3B solid 3px;
+    box-shadow: 8px 8px 5px rgba(33,33,33,.15);
 }
 
 .card:hover {
-    /* background: #E84B3B; */
     box-shadow: 4px 4px 5px rgba(33,33,33,.5);
-    transform: translate3D(0,-1px,0) scale(1.03);
+    /* transform: translate3D(0,-1px,0) scale(1.03); */
 }
 
 .card h2 {
